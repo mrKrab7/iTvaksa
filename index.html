@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
-    <link rel="stylesheet" href="sitetpl/default/bootstrap.css">
-    <link rel="stylesheet" href="sitetpl/default/bootstrap-grid.css">
+    <link rel="stylesheet" href="sitetpl/default/bootstrap.min.css">
+
     <link rel="stylesheet" href="sitetpl/default/swiper-bundle.min.css">
     <link rel="stylesheet" href="sitetpl/default/style.css">
     <script src="lib2/swiper-bundle.min.js"></script>
@@ -94,13 +94,13 @@
 <header class="header">
     <div class="container h-100">
         <div class="h-100 row  d-flex align-items-center">
-            <div class="col-md-2">
-                <img class="header__logo img-fluid" src="image/logo.svg" alt="header-logo">
+            <div class="col-md-2 ">
+                <img class="header__logo img-fluid " src="image/logo.svg" alt="header-logo">
             </div>
-            <div class="col-md-3 d-flex h-100 justify-content-center align-items-center">
+            <div class="col-md-2 d-flex h-100 justify-content-end align-items-center p-0">
                 <div class="header__email"><a href="mailto:Info@itvaksa.ru">Info@itvaksa.ru</a></div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 d-flex justify-content-center">
                 <div class="header__number">
                     <a class="header__number-links" href=""> +7 (999) 300 - 36 - 68</a>
                     <a class="header__number-links" href="">+7 (383) 200 - 36 - 67</a>
@@ -847,17 +847,101 @@
                 <div class="col-lg-4 p-0">
                     <div class="input-subtitle">Добрый день, моё имя</div>
                     <input required placeholder="Укажите Ваше имя*" class="input-line  consultation__input" type="text">
-                    <div class="input-subtitle mt-4">Вы можете связаться по Email почте</div>
+                    <div class="input-subtitle mt-5">Вы можете связаться по Email почте</div>
                     <input required placeholder="Укажите Email*" class="input-line  consultation__input" type="text">
                     <input checked required id="consultation__checkbox" class="checkbox-white-box" type="checkbox">
-                    <label for="consultation__checkbox" class="mt-5"> At vitae sociis parturient sit. </label>
+                    <label for="consultation__checkbox" class="mt-5"> Обязательные поля к заполнению </label>
                     <button type="submit" class="consultation__button mt-5">Отправить</button>
+                </div>
+                <div class="col-lg-8 p-0">
+                    <div class="row ">
+                        <div class="col-lg-6">
+                            <div class="input-subtitle">Я из компании</div>
+                            <input required placeholder="Укажите название компании*"
+                                   class="input-line  consultation__input"
+                                   type="text"></div>
+                        <div class="col-lg-6">
+                            <div class="input-subtitle">Вы можете связаться со мной</div>
+                            <input required placeholder="Укажите номер телефона" class="input-line  consultation__input"
+                                   type="text"></div>
+                        <div class="col-lg-12">
+                            <div class="input-subtitle mt-5">Меня интересует</div>
+                            <textarea placeholder="Описание Вашего заказа"
+                                      class="input-subtitle consultation__textarea"></textarea>
+
+
+                        </div>
+                        <div class="col-6">
+                            <div class="consultation__text mt-5">Обязательные поля к заполнению</div>
+                        </div>
+                        <div class="col-6 mt-5 text-end z-1 position-relative">
+                            <div class="consultation__feedback">+7 (999) 300 - 36 - 68</div>
+                            <div class="consultation__feedback">+7 (999) 300 - 36 - 68</div>
+                            <a class="consultation__feedback mt-3 d-block"
+                               href="mailto:Info@itvaksa.ru">Info@itvaksa.ru</a>
+
+
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </form>
     </div>
 </section>
+<section class="consultation-after-img position-relative">
+    <div class="title consultation-after-img__subtitle">ДЛЯ ВАШ<b>Е</b>ГО <br>
+        <b>БИЗНЕСА</b>
+    </div>
+    <img class="consultation-after__img" src="image/consultation-after__img.png" alt="">
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <img class="header__logo img-fluid" src="image/logo.svg" alt="header-logo">
+                <div class="footer__text">Ac scelerisque egestas at lacus nisl massa eleifend quis dolor.</div>
+                <div class="input-subtitle footer__input-subtitle mt-4">Свяжитесь с нами</div>
+                <input required placeholder="Укажите Email*" class="input-line mt-4 footer__input" type="text">
+                <input required placeholder="Укажите Email*" class="input-line  footer__input mt-4" type="text">
 
+            </div>
+            <div class="col-lg-2 offset-lg-1 p-0">
+                <div class="footer__subtitle ">Карта сайта</div>
+                <ul>
+                    <li class="footer__list-item"><a href="" class="footer__links">HOME</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__links">HOME</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__links">HOME</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__links">HOME</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__links">HOME</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__links">HOME</a></li>
+                </ul>
+
+            </div>
+            <div class="col-lg-2 offset-lg-1 p-0">
+                <div class="footer__subtitle ">Услуги компании</div>
+                <ul>
+                    <li class="footer__list-item"><a href="" class="footer__links">HOME</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__links">HOME</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__links">HOME</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__links">HOME</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__links">HOME</a></li>
+                    <li class="footer__list-item"><a href="" class="footer__links">HOME</a></li>
+                </ul>
+
+            </div>
+            <div class="col-lg-3 d-flex flex-column align-items-end">
+                <div class="header__email"><a href="mailto:Info@itvaksa.ru">Info@itvaksa.ru</a></div>
+                <div class="header__number">
+                    <a class="header__number-links" href=""> +7 (999) 300 - 36 - 68</a>
+                    <a class="header__number-links" href="">+7 (383) 200 - 36 - 67</a>
+                </div>
+                <button class="header__button footer__header">Заказать звонок</button>
+
+            </div>
+        </div>
+    </div>
+</footer>
 <script src="lib2/slider-settings.js"></script>
 </body>
 </html>

@@ -45,3 +45,37 @@ var clientsPaging = new Swiper(".clients__swiper", {
 });
 clientsSwiper.controller.control = clientsPaging;
 
+var clientsSwiper2 = new Swiper(".clients-swiper__swiper", {
+    pagination: {
+        el: ".clients__progress-swiper",
+        type: 'progressbar',
+        clickable: true,
+
+    },
+    navigation: {
+        nextEl: ".clients__swiper-next",
+        prevEl: ".clients__swiper-prev",
+    },
+
+    slidesPerView: 6,
+    // spaceBetween: 40,
+    slidesPerColumn: 2,
+    slidesPerGroup: 6,
+
+
+});
+var clientsPaging2 = new Swiper(".clients-swiper__swiper", {
+    pagination: {
+        el: ".clients__number-swiper",
+        type: "fraction",
+    },
+    slidesPerView: 6,
+    // spaceBetween: 0,
+    slidesPerColumn: 2,
+    slidesPerGroup: 6,
+    // navigation: {
+    //     nextEl: ".clients__swiper-next",
+    //     prevEl: ".clients__swiper-prev",
+    // },
+});
+clientsSwiper2.controller.control = clientsPaging2;
