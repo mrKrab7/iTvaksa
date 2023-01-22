@@ -79,3 +79,77 @@ var clientsPaging2 = new Swiper(".clients-swiper__swiper", {
     // },
 });
 clientsSwiper2.controller.control = clientsPaging2;
+
+
+
+var reviewsSwiper = new Swiper(".reviews__slider", {
+    pagination: {
+        el: ".reviews__progress-swiper",
+        type: 'progressbar',
+        clickable: true,
+
+    },
+    navigation: {
+        nextEl: ".reviews__swiper-next",
+        prevEl: ".reviews_swiper-prev",
+    },
+
+    slidesPerView: 3,
+    // spaceBetween: 40,
+    slidesPerColumn: 2,
+    slidesPerGroup: 3,
+
+
+});
+var reviewsPaging = new Swiper(".reviews__slider", {
+    pagination: {
+        el: ".reviews__number-swiper",
+        type: "fraction",
+    },
+    slidesPerView: 3,
+    // spaceBetween: 0,
+    slidesPerColumn: 2,
+    slidesPerGroup: 3,
+    // navigation: {
+    //     nextEl: ".clients__swiper-next",
+    //     prevEl: ".clients__swiper-prev",
+    // },
+});
+reviewsSwiper.controller.control = reviewsPaging;
+
+
+
+var servicesSliderSwiper = new Swiper(".services-slider__swiper", {
+    pagination: {
+        el: ".services-slider__progress-swiper",
+        type: 'progressbar',
+        clickable: true,
+
+    },
+    navigation: {
+        nextEl: ".services-slider__swiper-next",
+        prevEl: ".services-slider__swiper-prev",
+    },
+
+    slidesPerView: 6,
+    // spaceBetween: 40,
+    slidesPerColumn: 2,
+    slidesPerGroup: 6,
+
+
+});
+var servicesSliderPaging = new Swiper(".services-slider__swiper", {
+    pagination: {
+        el: ".services-slider__number-swiper",
+        type: "fraction",
+    },
+    slidesPerView: 6,
+    // spaceBetween: 0,
+    slidesPerColumn: 2,
+    slidesPerGroup: 6,
+    // navigation: {
+    //     nextEl: ".clients__swiper-next",
+    //     prevEl: ".clients__swiper-prev",
+    // },
+});
+servicesSliderSwiper.controller.control = servicesSliderPaging;
