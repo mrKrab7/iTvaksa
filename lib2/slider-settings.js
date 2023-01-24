@@ -3,11 +3,27 @@ var swiper = new Swiper(".main__swiper", {
         el: ".swiper-pagination",
         clickable: true,
     },
-    // loop: true,
-    autoplay: {
-        delay: 5000,
-        disableOnInteraction: false,
+    navigation: {
+        nextEl: ".main__swiper-next",
+        prevEl: ".main__swiper-prev",
     },
+    // loop: true,
+    // autoplay: {
+    //     delay: 5000,
+    //     disableOnInteraction: false,
+    // },
+});
+
+var mainNavSwiper = new Swiper(".main__nav-swiper", {
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    slidesPerView: 2,
+    // spaceBetween: 40,
+    slidesPerColumn: 2,
+    slidesPerGroup: 2,
+
 });
 
 var clientsSwiper = new Swiper(".clients__swiper", {
@@ -22,10 +38,36 @@ var clientsSwiper = new Swiper(".clients__swiper", {
         prevEl: ".clients__swiper-prev",
     },
 
-    slidesPerView: 4,
-    // spaceBetween: 40,
-    slidesPerColumn: 2,
-    slidesPerGroup: 2,
+
+
+    breakpoints: {
+        // when window width is <= 320px
+
+        320: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            slidesPerGroup: 2,
+        },
+        // when window width is <= 480px
+        992: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+        },
+        1200: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 2,
+        },
+        // when window width is <= 640px
+        1400: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+            slidesPerGroup: 2,
+        },
+
+
+    },
 
 
 });
@@ -34,16 +76,53 @@ var clientsPaging = new Swiper(".clients__swiper", {
         el: ".clients__number-swiper",
         type: "fraction",
     },
-    slidesPerView: 4,
-    // spaceBetween: 0,
-    slidesPerColumn: 2,
-    slidesPerGroup: 2,
-    // navigation: {
-    //     nextEl: ".clients__swiper-next",
-    //     prevEl: ".clients__swiper-prev",
-    // },
+
+
+    breakpoints: {
+        // when window width is <= 320px
+        320: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            slidesPerGroup: 2,
+        },
+        // when window width is <= 480px
+        992: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+        },
+        1200: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 2,
+        },
+        // when window width is <= 640px
+        1400: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+            slidesPerGroup: 2,
+        },
+    },
 });
 clientsSwiper.controller.control = clientsPaging;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 var clientsSwiper2 = new Swiper(".clients-swiper__swiper", {
     pagination: {
@@ -81,7 +160,6 @@ var clientsPaging2 = new Swiper(".clients-swiper__swiper", {
 clientsSwiper2.controller.control = clientsPaging2;
 
 
-
 var reviewsSwiper = new Swiper(".reviews__slider", {
     pagination: {
         el: ".reviews__progress-swiper",
@@ -116,7 +194,6 @@ var reviewsPaging = new Swiper(".reviews__slider", {
     // },
 });
 reviewsSwiper.controller.control = reviewsPaging;
-
 
 
 var servicesSliderSwiper = new Swiper(".services-slider__swiper", {
