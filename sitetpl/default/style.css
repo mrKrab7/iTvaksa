@@ -10,6 +10,7 @@ button {
     display: block;
 
 }
+
 input[type="radio"] {
     display: none;
 }
@@ -1260,17 +1261,20 @@ div a:hover {
 .purpleWhite .advantage__cards-button {
     border-color: #645EFB;
 }
+
 .advantage__cards-sale {
     position: absolute;
     top: -9px;
     left: 23px;
 }
+
 .advantage2-bg-2 {
     position: absolute;
     right: 170px;
     top: 120px;
     z-index: -1;
 }
+
 .advantage2-bg-1 {
     position: absolute;
     z-index: -1;
@@ -1278,26 +1282,32 @@ div a:hover {
     left: 0;
 
 }
+
 .reviews {
     margin-top: 100px;
     padding-bottom: 90px;
 }
+
 .reviews__tab-subtitle {
     font-weight: 700;
     font-size: 16px;
     color: #848484;
 }
+
 .reviews__tab-subtitle {
     cursor: pointer;
 }
+
 .after-click {
     color: #0076C9;
     text-decoration-line: underline;
 }
+
 .gradient-line {
     height: 2px;
-    background-image: -webkit-linear-gradient(left, rgba(255,255,255,0), #0076C9, rgba(255,255,255,0));
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #0076C9, rgba(255, 255, 255, 0));
 }
+
 .reviews__slider-wrapper-img {
     width: 190px;
     height: 170px;
@@ -1307,26 +1317,31 @@ div a:hover {
     position: relative;
 
 }
+
 .reviews__slider {
     padding-bottom: 20px;
     padding-top: 33px;
 }
+
 .reviews__slider-wrapper-img img {
     display: block;
 }
+
 .reviews__slider-wrapper-text {
     width: 220px;
 }
+
 .reviews__slider-title {
     margin-top: 20px;
     font-weight: 500;
     font-size: 18px;
-    border-top: 2px solid #0076C9 ;
+    border-top: 2px solid #0076C9;
     color: #0076C9;
     display: inline-block;
     padding-left: 20px;
     padding-top: 5px;
 }
+
 .reviews__slider-descr {
     position: relative;
     font-weight: 400;
@@ -1343,11 +1358,12 @@ div a:hover {
     padding-bottom: 20px;
 
 }
+
 .reviews__slider-descr:before {
     position: absolute;
     content: '“';
     font-size: 56px;
-    color:#000000 ;
+    color: #000000;
     font-weight: 500;
 
     width: 20px;
@@ -1358,11 +1374,12 @@ div a:hover {
 
 
 }
+
 .reviews__slider-descr:after {
     position: absolute;
     content: '“';
     font-size: 56px;
-    color:#000000 ;
+    color: #000000;
     font-weight: 500;
 
     width: 20px;
@@ -1373,6 +1390,7 @@ div a:hover {
 
 
 }
+
 .reviews__slider-bg {
     position: absolute;
     width: 128px;
@@ -1384,6 +1402,7 @@ div a:hover {
     border-radius: 11px;
 
 }
+
 .reviews__nav-wrapper .reviews__progress-swiper {
     position: relative;
     max-width: 1060px;
@@ -1393,37 +1412,45 @@ div a:hover {
     border-radius: 9px;
     background: var(--grayWhite);
 }
-.reviews__nav-wrapper .reviews__progress-swiper .swiper-pagination-progressbar-fill{
+
+.reviews__nav-wrapper .reviews__progress-swiper .swiper-pagination-progressbar-fill {
     background-color: var(--black);
     border-radius: 17px;
 
 
 }
+
 .reviews__number-swiper {
     width: 40px;
 
     margin-left: 10px;
     height: 10px;
 }
+
 .reviews__btn-swiper {
     right: -60px;
     position: relative;
 }
+
 .reviews_swiper-next {
     margin-right: 30px;
 }
+
 .reviews__nav-wrapper {
     margin-top: 80px;
 }
+
 .services-slider__input {
 
 }
+
 .services-slider__btn-wrapper {
     padding-left: 40px;
     padding-right: 40px;
-    width: 100%  ;
+    width: 100%;
 }
-.services-slider__input  + label{
+
+.services-slider__input + label {
     font-weight: 700;
     font-size: 18px;
     color: #848484;
@@ -1433,28 +1460,33 @@ div a:hover {
     margin-bottom: 20px;
 
 }
+
 .services-slider {
     padding-bottom: 140px;
 }
 
-.services-slider__input:checked  + label{
+.services-slider__input:checked + label {
     font-weight: 700;
     font-size: 18px;
     color: #0076C9;
     text-decoration-line: underline;
 }
+
 .services-slider__card {
     background: #F8F8F8;
     border: 2px solid #D9D9D9;
     border-radius: 6px;
     width: 190px;
     height: 277px;
+    cursor: pointer;
 }
+
 .services-slider__card-img {
     display: block;
     margin: 0 auto;
     margin-top: 35px;
 }
+
 .services-slider__card-title {
     font-weight: 700;
     font-size: 14px;
@@ -1466,12 +1498,14 @@ div a:hover {
     overflow: hidden;
 
 }
+
 .services-slider__card-new-price {
     font-weight: 700;
     margin-top: 30px;
     font-size: 26px;
     text-align: center;
 }
+
 .services-slider__card-old-price {
     position: absolute;
     left: 0;
@@ -1485,6 +1519,129 @@ div a:hover {
     bottom: 68px;
 
 }
+.services-slider__card:hover {
+    filter: drop-shadow(0px 7px 19px rgba(11, 28, 86, 0.15));
+}
+.services-slider__nav-wrapper {
+    margin-top: 50px;
+    padding-left: 18px;
+}
+
+.services-slider__progress-swiper {
+    position: relative;
+    max-width: 1060px;
+    width: 100%;
+    height: 4px;
+    border-radius: 9px;
+    background: var(--grayWhite);
+}
+.services-slider__progress-swiper .swiper-pagination-progressbar-fill {
+    background-color: var(--black);
+    border-radius: 17px;
+}
+.services-slider__number-swiper{
+    width: 40px;
+    margin-left: 10px;
+    height: 10px;
+    position: relative;
+}
+.services-slider__btn-swiper {
+    position: relative;
+    right: -60px;
+}
+.services-slider__swiper {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 18px;
+    /*padding-right: 25px;*/
+}
+.services-slider__swiper-next {
+    margin-left: 30px;
+
+}
+.services-slider__swiper-next.swiper-button-disabled {
+    opacity: .6;
+}
+.services-slider__swiper-prev.swiper-button-disabled {
+    opacity: .6;
+}
+.services-slider__left-bg {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+}
+.services-slider__right-bg {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    top: 300px;
+}
+.audit {
+    background: #0B1727;
+    padding-bottom: 70px;
+   z-index: 2;
+    /*overflow: hidden;*/
+}
+.audit__subtitle {
+    color: white;
+    margin-bottom: 60px;
+
+}
+.audit__text {
+    line-height: normal;
+}
+.audit__feedback {
+    margin-top: 50px;
+    z-index: 2;
+    position: relative;
+}
+.audit__button {
+    margin-top: 70px;
+}
+.audit__left-bg {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    pointer-events: none;
+}
+.audit__right-bg {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    bottom: 0 ;
+    pointer-events: none;
+}
+.team {
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+.team__name {
+    font-weight: 700;
+    font-size: 21px;
+    color: #0B1727;
+
+}
+.audit .input-line {
+    position: relative;
+    z-index: 2;
+}
+.team__position {
+    color: #0076C9;
+    font-weight: 700;
+    font-size: 18px;
+}
+.team__subtitle {
+    font-weight: 700;
+    font-size: 16px;
+    color: #0B1727;
+}
+.team__descr {
+    font-weight: 400;
+    font-size: 14px;
+    color: #0B1727;
+
+}
+
 @keyframes scroll {
     to {
         transform: translateY(-1130px)

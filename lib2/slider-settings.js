@@ -132,7 +132,7 @@ var servicesSliderSwiper = new Swiper(".services-slider__swiper", {
     },
 
     slidesPerView: 6,
-    // spaceBetween: 40,
+    spaceBetween: 20,
     slidesPerColumn: 2,
     slidesPerGroup: 6,
 
