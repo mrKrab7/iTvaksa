@@ -804,11 +804,11 @@ div a:hover {
 }
 
 .consultation-after-img {
-    height: 240px;
+    height: 290px;
 }
 
 .consultation-after__img {
-    top: -50px;
+    top: 10px;
     position: absolute;
     right: 0;
 }
@@ -1768,8 +1768,9 @@ div a:hover {
     border-color: #0B1727;
     color: #0B1727;
 }
+
 .consultation-after-img {
-overflow:hidden;
+    overflow: hidden;
 }
 
 @media (max-width: 1800px) {
@@ -1886,13 +1887,16 @@ overflow:hidden;
     .input-subtitle {
         font-size: 15px;
     }
+
     .footer__subtitle {
         font-size: 16px;
         font-weight: 700;
     }
-    .footer__list-item a  {
+
+    .footer__list-item a {
         font-size: 13px;
     }
+
     .footer__input-subtitle {
         font-size: 40px;
     }
@@ -1977,11 +1981,10 @@ overflow:hidden;
     .consultation-after__img {
         display: none;
     }
+
     .footer__input-subtitle {
         font-size: 48px;
     }
-
-
 
 
 }
@@ -2107,16 +2110,18 @@ overflow:hidden;
     .consultation-after-img__subtitle {
         font-size: 85px;
     }
+
     .footer .header__number {
         margin-top: 10px;
     }
+
     .footer__input {
         max-width: 300px;
     }
+
     .footer {
         padding-bottom: 40px;
     }
-
 
 
 }
